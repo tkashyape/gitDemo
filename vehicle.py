@@ -43,10 +43,6 @@ class Car(Vehicle):
       self.colour = colour
       self.mileage = mileage
 
-   def setData(self, colour, mileage, rangeKm):
-      self.colour = colour
-      self.mileage = mileage
-      self.rangeKm = rangeKm
 
    def displayData(self):
 
